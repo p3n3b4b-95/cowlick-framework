@@ -11,7 +11,7 @@ it solves a demonstrated need and preserves the framework's simplicity.
 
 ## Next
 
-- [ ] Validate the workflow through one end-to-end example.
+- [x] Validate the workflow through one end-to-end example.
 - [ ] Publish the first reusable engineering pattern.
 - [ ] Publish the first outcome-focused playbook.
 - [ ] Document one AI-tool adapter without changing the core workflow.
@@ -21,4 +21,3 @@ it solves a demonstrated need and preserves the framework's simplicity.
 - Additional adapters and domain playbooks.
 - Governance through lightweight public RFCs.
 - Automation or a CLI only when repeated manual use proves the need.
-
