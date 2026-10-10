@@ -25,6 +25,7 @@ engineering workflow around them.
 
 | Path | Purpose |
 | --- | --- |
+| `AGENTS.md` | Cowlick working agreement used by this repository |
 | `.cowlick/` | Project-level Cowlick metadata and configuration |
 | `docs/` | Framework documentation |
 | `examples/` | Small, complete examples |
@@ -39,6 +40,12 @@ engineering workflow around them.
 3. Add only the playbooks, patterns, and adapters that project needs.
 4. Keep a human responsible for review, verification, and release decisions.
 
+## Dogfooding
+
+Cowlick uses Cowlick. The root `AGENTS.md` turns the core workflow into the
+working agreement for AI tools and contributors in this repository. It keeps
+the framework vendor-neutral while making its expectations directly usable.
+
 ## Contributing
 
 Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) and the
@@ -49,4 +56,3 @@ Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) and the
 Licensed under the [Apache License 2.0](LICENSE). It is permissive and includes
 an explicit patent grant, making it a strong default for a community engineering
 framework.
-

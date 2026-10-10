@@ -3,6 +3,13 @@
 All notable changes to this project will be documented here. This project uses
 [Semantic Versioning](https://semver.org/).
 
+## [Unreleased]
+
+### Added
+
+- Root contributor instructions that apply Cowlick's workflow to its own
+  development.
+
 ## [1.0.0] - 2026-10-10
 
 ### Added
@@ -11,4 +18,3 @@ All notable changes to this project will be documented here. This project uses
 - Open-source contribution, conduct, roadmap, and license documents.
 - Skeletons for project metadata, documentation, examples, playbooks, patterns,
   and tool adapters.
-
