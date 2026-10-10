@@ -9,6 +9,7 @@ All notable changes to this project will be documented here. This project uses
 
 - Root contributor instructions that apply Cowlick's workflow to its own
   development.
+- Installable local Codex skill for projects that explicitly adopt Cowlick.
 
 ## [1.0.0] - 2026-10-10
 
