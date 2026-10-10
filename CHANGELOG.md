@@ -12,6 +12,10 @@ All notable changes to this project will be documented here. This project uses
 - Installable local Codex skill for projects that explicitly adopt Cowlick.
 - First verified end-to-end example, applying Cowlick to its own repository.
 
+### Fixed
+
+- Verification guidance now checks staged new files as well as tracked edits.
+
 ## [1.0.0] - 2026-10-10
 
 ### Added

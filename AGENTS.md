@@ -22,6 +22,6 @@ This repository uses Cowlick to develop Cowlick. Follow the
   it is needed.
 - A human owns scope, safety, and release decisions.
 
-Before finishing, run `git diff --check`, confirm relative Markdown links
-resolve, and review the complete diff.
-
+Before finishing, stage the intended files, run `git diff --check` and
+`git diff --cached --check`, confirm relative Markdown links resolve, and
+review the complete staged diff.

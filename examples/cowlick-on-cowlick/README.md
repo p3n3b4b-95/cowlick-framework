@@ -49,9 +49,12 @@ behavior changed.
 
 ### 5. Verify
 
-The change was checked with `git diff --check`, every relative Markdown link
-was resolved locally, and the complete diff was reviewed before commit. Commit
-`48f76a2` contains only the three intended files.
+The original tracked edits were checked with `git diff --check`, every relative
+Markdown link was resolved locally, and the diff was reviewed before commit.
+A later review found that the command had not covered the new untracked file.
+The process now stages intended files and runs both `git diff --check` and
+`git diff --cached --check` so new files are included. Commit `48f76a2`
+contains only the three intended files.
 
 ### 6. Record
 
@@ -72,4 +75,3 @@ it automatically.
   workflow.
 - Link verification was run manually; the repository still has no automated
   documentation checks.
-

@@ -33,4 +33,3 @@ verifiable.
 When adopting Cowlick in a new project, start with only `.cowlick/config.yml`
 and project-level contributor instructions. Add playbooks, patterns, examples,
 or adapters only when the project actually needs them.
-
